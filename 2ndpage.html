@@ -16,62 +16,54 @@
 
 
 
-<body class="bg-[#F5F5F5] text-gray-900">
+<body>
 
  
-  <div class="bg-black text-white text-center text-xs py-2">
-    Sign up and get 20% off your first order.
-    <a href="#" class="underline ml-1">Sign Up Now</a>
-    
-  </div>
-  
-
-  
-  <header class="bg-white border-b">
-    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-
-      <div class="flex items-center gap-8">
-        <button class="lg:hidden">
-          <i data-lucide="menu" class="w-6 h-6"></i>
-        </button>
-
-        <h1 class="text-3xl font-black font-sans">SHOP.CO</h1>
-
-        <nav class="hidden lg:flex gap-6 text-sm text-gray-600">
-    
-
-
-
-
-<div class="flex items-center gap-6 text-[16px]">
-
-<p class="flex items-center">Shop<i data-lucide="chevron-down" class="w-4 h-4"></i></p>
-
-<p>On Sale</p>
-
-<p>New Arrival</p>
-
-<p>Brands</p>
-
-
-</div>
-
-      <div class="hidden md:flex items-center bg-gray-100 rounded-full px-4 py-3 w-[420px]">
-        <i data-lucide="search" class="w-4 h-4 text-gray-400"></i>
-        <input
-          type="text"
-          placeholder="Search for products..."
-          class="bg-transparent outline-none ml-3 w-full text-sm"
-        />
-      </div>
-
-      <div class="flex gap-5">
-        <i data-lucide="shopping-cart" class="w-5 h-5"></i>
-        <i data-lucide="user-circle-2" class="w-5 h-5"></i>
-      </div>
-
+  <div
+    class="relative flex items-center justify-center w-full lg:h-9.5 h-[34px] bg-black text-white text-[12px] md:text-[14px]">
+    <div class="flex justify-center items-center w-full">
+      <p>Sign up and get 20% off to your first order.</p>
+      <a href="" class="ml-1 lg:ml-2 underline font-semibold">Sign Up Now</a>
     </div>
-  </header>
+    <div class="absolute right-4 lg:right-15 hidden lg:block">
+      <i data-lucide="x" class="text-white cursor-pointer w-4 h-4"></i>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-between w-full px-4 lg:px-20 h-14 lg:h-24">
+    <div class="flex items-center gap-4">
+      <i data-lucide="menu" class="lg:hidden cursor-pointer mt-1 w-6 h-6"></i>
+      <div class="logo text-[25px] lg:text-[32px] -mt-1"><a href="/">
+          <h1>SHOP.CO</h1>
+        </a></div>
+    </div>
+
+    <div class="hidden lg:flex gap-8 items-center text-[16px]">
+      <div class="flex items-center gap-1 cursor-pointer">
+        <p>Shop</p><i data-lucide="chevron-down" class="w-4 h-4 mt-0.5"></i>
+      </div>
+      <a href="" class="cursor-pointer">
+        <p>On Sale</p>
+      </a>
+      <a href="" class="cursor-pointer">
+        <p>New Arrivals</p>
+      </a>
+      <a href="" class="cursor-pointer">
+        <p>Brands</p>
+      </a>
+    </div>
+
+    <div class="flex items-center gap-4 lg:gap-6">
+      <div class="relative hidden lg:block">
+        <i data-lucide="search" class="absolute text-gray-400 left-4 top-1/2 -translate-y-1/2 w-5 h-5"></i>
+        <input type="text" placeholder="search the product..."
+          class="w-140 pl-12 pr-4 h-12 bg-gray-100 rounded-full text-[16px] outline-none">
+      </div>
+      <i data-lucide="search" class="lg:hidden cursor-pointer w-6 h-6 mt-1"></i>
+      <i data-lucide="shopping-cart" class="cursor-pointer w-6 h-6 mt-1"></i>
+      <i data-lucide="circle-user-round" class="cursor-pointer w-6 h-6 mt-1"></i>
+    </div>
+  </div>
 
  
   <div class="max-w-7xl mx-auto px-6 py-6 text-sm text-gray-500">
@@ -94,7 +86,7 @@
                class="w-24 h-28 rounded-xl object-cover ">
 
           <img src="tshirt img3.png"
-               class="w-24 h-28 rounded-xl object-cover">
+               class="w-30 h-40 rounded-xl object-cover">
         </div>
 
         <div class="flex-1 bg-[#EFEFEF] rounded-3xl p-8 flex items-center justify-center">
